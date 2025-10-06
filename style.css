@@ -8,3 +8,18 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(44,214,66,1) 0%, rgba(2,0,36,1) 47%, rgba(48,214,47,0.4654236694677871) 100%);
+}
+
+/* Top Part */
+.main-content{
+    display: flex;
+    padding: 5px 0;
+    /* Animation */
+    animation: mn1 1.5s ease-in forwards;
+}
