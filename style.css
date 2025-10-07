@@ -105,3 +105,16 @@ footer{
     outline: none;
     border: 1px solid #e74c3c;
 }
+.right form .btn{
+    margin-top: 10px;
+}
+.right form .btn button{
+ height: 40px;
+ width: 100%;
+ border: none;
+ background: #e74c3c;
+ font-size: 1.05rem;
+ cursor: pointer;
+ transition: all 0.4s ease-in;
+
+}
