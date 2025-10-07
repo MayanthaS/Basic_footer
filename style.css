@@ -30,3 +30,19 @@ footer{
     flex-basis: 33.33%;
     padding: 10px 20px;
 }
+.box h2{
+    font-size: 1.125rem;
+}
+.box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content::before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #ecf0f1;
+}
