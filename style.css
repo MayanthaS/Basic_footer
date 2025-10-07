@@ -61,3 +61,18 @@ footer{
     text-align: center;
     transition: all 0.5s ease-in;
 }
+.left .content .social a span:hover{
+    background: #e74c3c;
+}
+/*center semant*/
+.center .content .fas{
+    font-size: 1.3rem;
+    background: #1a1a1a;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition:all o.4s ease-in ;
+}
