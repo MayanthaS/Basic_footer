@@ -127,11 +127,11 @@ footer{
     z-index: 2;
     opacity: 0;
     /*animation*/
-    animation:bt1 1.5s ease-in forwards;
+     animation: bt1 10s ease-in forwards 5s;
 }
 @keyframes bt1{
     form{
-        opacity:0;
+        opacity: 0;
     }
     to{
         opacity: 1;
@@ -149,5 +149,22 @@ footer{
     color: #e74c3c;
     font-weight: 600;
     text-decoration: none;
+}
 
+/*responsiveness*/
+@media(max-width:716px){
+    /* Top Part */
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main-content .box{
+        margin: 5px 0;
+    }
+
+    /* Bottom Part */
+    .bottom div{
+        font-size: 0.8rem;
+    }
 }
