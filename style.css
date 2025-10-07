@@ -9,6 +9,7 @@
     font-family: 'Roboto';
 }
 /* Footer */
+
 footer{
     position: fixed;
     bottom: 0;
@@ -17,9 +18,15 @@ footer{
 }
 
 /* Top Part */
+
 .main-content{
     display: flex;
     padding: 5px 0;
-    /* Animation */
-    animation: mn1 1.5s ease-in forwards;
+    
+}
+ .main-content .box{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.33%;
+    padding: 10px 20px;
 }
